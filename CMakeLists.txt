@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.6)
+project(Kerninghan_Ritchie_Atmadeep)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
+set(SOURCE_FILES main.cpp)
+add_executable(1-3 1-3.c)
+add_executable(1-4 1-4.c)
+add_executable(1-5 1-5.c)
+add_executable(1-8 1-8.c)
+add_executable(trials trials.c)
+add_executable(1-9 1-9.c)
+add_executable(1-10 1-10.c)
+add_executable(1-12 1-12.c)
+add_executable(1-14 1-14.c)

@@ -1,0 +1,8 @@
+#files ingnored in this project.
+*.xml
+*.iml
+trials.c
+textfile.txt
+.idea/
+cmake-build-debug/
+
