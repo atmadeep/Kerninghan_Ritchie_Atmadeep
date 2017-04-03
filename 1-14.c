@@ -26,7 +26,7 @@ int main(){
             for (int m = 0; m <count_char ; ++m) {
                 printf("-");
             }
-            printf(" %d",count_char);
+
         }
     }
     printf("\n  ");

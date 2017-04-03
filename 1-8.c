@@ -1,12 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h>
 int main(){
-    int c,nl=0;
-    while((c=getchar()!=EOF))
-        if(c=='\n')
+    int c,nl,nt,nb;
+    nl=nt=nb=0;
+    while((c=getchar())!=EOF)    {
+        if (c == '\n')
             ++nl;
-
-
-        printf(" nl = %d\n",nl);
+        if(c==' ')
+            nb++;
+        if(c=='\t')
+            nt++;
+    }
+        printf("\nlines = %d tabs = %d blanks = %d\n",nl,nt,nb);
     return 0;
 }

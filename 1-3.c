@@ -12,7 +12,7 @@ step=20;
     while(fahr<=upper){
         if(fahr==0)
             printf("fahr celcius\n");
-        celcius=(5.0/9.0)*(fahr-32.0);
+        celcius= (float) ((5.0 / 9.0) * (fahr - 32.0));
         printf("%3.0f %6.1f\n",fahr,celcius);
         fahr+=step;
     }
